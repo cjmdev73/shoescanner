@@ -98,6 +98,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 269.0,
+        "url": "https://therunningshop.com.au/products/mizuno-wave-sky-9-tsukiakari-mens"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 280.0,
+        "url": "https://therunningcentre.com.au/products/mizuno-wave-sky-9-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/mens-mizuno-wave-sky-9"
       }
     ]
   },
@@ -372,6 +387,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 180.0,
+        "url": "https://therunningshop.com.au/products/mizuno-wave-inspire-22-womens-2"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 250.0,
+        "url": "https://therunningcentre.com.au/products/mizuno-wave-inspire-23-womens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 249.95,
+        "url": "https://footmotion.com.au/products/mizuno-wave-inspire-22-2e-dark-slate-blue-jewel-white-mens"
       }
     ]
   },
@@ -520,6 +550,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 208.0,
+        "url": "https://solemotive.com/products/mizuno-neo-zen-2-womens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 160.0,
+        "url": "https://therunningshop.com.au/products/mizuno-neo-zen-2-womens-3"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 260.0,
+        "url": "https://therunnersshop.com.au/products/mens-mizuno-neo-zen-2"
       }
     ]
   },
@@ -672,7 +717,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 255.2,
+    "best_price": 175.0,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/SH_J1GM261051_11.jpg?v=1792544984",
     "stores": [
       {
@@ -696,6 +741,46 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 204.0,
+        "url": "https://www.activefeet.com.au/products/mizuno-wave-daichi-10-mens-trail-running-shoes"
+      },
+      {
+        "retailer": "Pace Athletic",
+        "lowest_price": 320.0,
+        "url": "https://paceathletic.com/products/unisex-mizuno-neo-vista-3-tsukiakari-j1gs2610-99"
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 320.0,
+        "url": "https://solemotive.com/products/mizuno-neo-vista-3-womens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 175.0,
+        "url": "https://therunningshop.com.au/products/mizuno-neo-vista-2-womens-1"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 320.0,
+        "url": "https://therunningcentre.com.au/products/mizuno-neo-vista-3-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 320.0,
+        "url": "https://therunnersshop.com.au/products/womens-mizuno-neo-vista-3"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 229.95,
+        "url": "https://footmotion.com.au/products/mizuno-neo-vista-2-d-white-white-iris-bloom-mens"
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 269.99,
+        "url": "https://intersport.com.au/products/mizuno-morelia-neo-iv-beta-elite-firm-ground-mens-football-boots"
       }
     ]
   },
@@ -1957,6 +2042,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 239.95,
+        "url": "https://footmotion.com.au/products/hoka-bondi-9-b-white-white-womens"
       }
     ]
   },
@@ -3887,6 +3977,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 219.95,
+        "url": "https://footmotion.com.au/products/hoka-clifton-11-d-black-neon-yuzu-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/womens-hoka-clifton-11-b"
       }
     ]
   },
@@ -3899,7 +3999,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 154.0,
+    "best_price": 149.99,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/products/n1_be217728-2706-4615-9e3e-ba922910bbf6.png?v=1712886064",
     "stores": [
       {
@@ -5055,6 +5155,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 250.0,
+        "url": "https://solemotive.com/products/new-balance-fresh-foam-x-860-v15"
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 149.99,
+        "url": "https://intersport.com.au/products/nb-womens-fresh-foam-860-v14-2"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 250.0,
+        "url": "https://therunnersshop.com.au/products/mens-new-balance-fresh-foam-x-hierro-v9-wide-2e"
       }
     ]
   },
@@ -5176,7 +5291,7 @@
     "gender": "Men's",
     "category": "Tempo / Speed",
     "variant": "Road",
-    "best_price": 149.0,
+    "best_price": 120.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-New-Balance-FuelCell-Rebel-v5-Pistachio-Butter-MFCX8QY-D.jpg?v=1782363141",
     "stores": [
       {
@@ -5625,6 +5740,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 138.0,
+        "url": "https://solemotive.com/products/new-balance-fuelcell-rebel-v5-mens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 130.0,
+        "url": "https://therunningshop.com.au/products/new-balance-fuel-cell-rebel-v5-2e-wide-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 120.0,
+        "url": "https://therunnersshop.com.au/products/kids-new-balance-fuelcell-rebel-v5"
       }
     ]
   },
@@ -7252,7 +7382,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 95.2,
+    "best_price": 79.95,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/m52031e_nb_02_i.jpg?v=1790118713",
     "stores": [
       {
@@ -7359,6 +7489,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 79.95,
+        "url": "https://footmotion.com.au/products/new-balance-520-v9-grade-altitude-north-sea-boys"
       }
     ]
   },
@@ -7791,6 +7926,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 192.0,
+        "url": "https://solemotive.com/products/saucony-endorphin-azura-womens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 180.0,
+        "url": "https://therunningshop.com.au/products/saucony-endorhin-azura-womens"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 240.0,
+        "url": "https://therunningcentre.com.au/products/saucony-endorphin-azura-womens"
       }
     ]
   },
@@ -7803,7 +7953,7 @@
     "gender": "Men's",
     "category": "Race / Marathon",
     "variant": "Road",
-    "best_price": 245.0,
+    "best_price": 169.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-Saucony-Endorphin-Pro-5-White_Slime-S21064-151.jpg?v=1769558217",
     "stores": [
       {
@@ -8088,6 +8238,26 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 349.99,
+        "url": "https://solemotive.com/products/saucony-endorphin-pro-5-mens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 169.0,
+        "url": "https://therunningshop.com.au/products/saucony-endorphin-pro-4-mens-7"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 349.95,
+        "url": "https://footmotion.com.au/products/saucony-endorphin-pro-5-d-vizired-black-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 350.0,
+        "url": "https://therunnersshop.com.au/products/womens-saucony-endorphin-pro-5"
       }
     ]
   },
@@ -9345,7 +9515,7 @@
     "gender": "Men's",
     "category": "Race / Marathon",
     "variant": "Road",
-    "best_price": 175.2,
+    "best_price": 119.95,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/1011B872_753_SR_RT_GLB.jpg?v=1788158232",
     "stores": [
       {
@@ -9440,6 +9610,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 119.95,
+        "url": "https://footmotion.com.au/products/asics-gel-noosa-tri-16-gs-illuminate-mint-radiant-amethyst-youth"
       }
     ]
   },
@@ -9583,7 +9758,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 199.2,
+    "best_price": 150.0,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/1012B998_020_SR_RT_GLB.jpg?v=1788157514",
     "stores": [
       {
@@ -9730,6 +9905,31 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 250.0,
+        "url": "https://solemotive.com/products/asics-gt-2000-15-womens"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 250.0,
+        "url": "https://therunningcentre.com.au/products/asics-gt-2000-15-womens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 249.95,
+        "url": "https://footmotion.com.au/products/asics-gt-2000-15-b-black-taro-purple-womens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 150.0,
+        "url": "https://therunningshop.com.au/products/asics-gt-2000-14-mens-3"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 250.0,
+        "url": "https://therunnersshop.com.au/products/womens-asics-gt-2000-15-tr"
       }
     ]
   },
@@ -9886,7 +10086,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 159.2,
+    "best_price": 120.0,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/1011C230_003_SR_RT_GLB.jpg?v=1788157059",
     "stores": [
       {
@@ -9957,6 +10157,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 120.0,
+        "url": "https://therunnersshop.com.au/products/kids-asics-gt-1000-14-gs"
       }
     ]
   },
@@ -11986,7 +12191,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 223.2,
+    "best_price": 160.0,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/s100999-1012_wht_1.jpg?v=1787722538",
     "stores": [
       {
@@ -12072,6 +12277,31 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 279.99,
+        "url": "https://solemotive.com/products/saucony-triumph-24-mens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 160.0,
+        "url": "https://therunningshop.com.au/products/saucony-triumph-23-2e-wide-mens-1"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 280.0,
+        "url": "https://therunningcentre.com.au/products/saucony-triumph-24-mens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 279.95,
+        "url": "https://footmotion.com.au/products/saucony-triumph-24-b-ivory-eggshell-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/womens-saucony-triumph-24"
       }
     ]
   },
@@ -12630,6 +12860,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 224.0,
+        "url": "https://www.activefeet.com.au/products/hoka-arahi-9-womens-running-shoes"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 279.99,
+        "url": "https://therunningcentre.com.au/products/hoka-arahi-9-wide-mens-1"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/womens-hoka-arahi-9"
       }
     ]
   },
@@ -12699,7 +12944,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 191.2,
+    "best_price": 160.0,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/1012B916_103_SR_RT_GLB.jpg?v=1786429566",
     "stores": [
       {
@@ -12797,6 +13042,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 239.95,
+        "url": "https://footmotion.com.au/products/asics-gel-cumulus-28-d-midnight-khaki-green-mens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 160.0,
+        "url": "https://therunningshop.com.au/products/asics-gel-cumulus-28-womens-2"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 240.0,
+        "url": "https://therunnersshop.com.au/products/mens-asics-gel-cumulus-28"
       }
     ]
   },
@@ -14016,7 +14276,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Wide",
-    "best_price": 159.2,
+    "best_price": 79.99,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/1072A113_104_SR_RT_GLB.jpg?v=1785218163",
     "stores": [
       {
@@ -14058,6 +14318,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 79.99,
+        "url": "https://intersport.com.au/products/gel-netburner-ballistic-3-gs-kids-netball-shoes"
       }
     ]
   },
@@ -14813,7 +15078,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 175.2,
+    "best_price": 79.99,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/1052A083_106_SR_RT_GLB.jpg?v=1782257820",
     "stores": [
       {
@@ -14895,6 +15160,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 79.99,
+        "url": "https://intersport.com.au/products/gel-netburner-ballistic-3-gs-kids-netball-shoes"
       }
     ]
   },
@@ -15275,7 +15545,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 156.0,
+    "best_price": 144.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-adidas-Supernova-Rise-3-Dusky-Ink_Dusky-Ink_Silver-Metallic-JP8684.jpg?v=1773219654",
     "stores": [
       {
@@ -15410,6 +15680,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 144.0,
+        "url": "https://solemotive.com/products/adidas-supernova-rise-3-womens"
       }
     ]
   },
@@ -15575,6 +15850,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 230.0,
+        "url": "https://therunningshop.com.au/products/asics-gel-trabuco-14-womens-3"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/womens-asics-gel-trabuco-14-gtx"
       }
     ]
   },
@@ -16043,7 +16328,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Wide",
-    "best_price": 189.0,
+    "best_price": 71.5,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/1131A047_107_SR_RT_GLB.jpg?v=1782256917",
     "stores": [
       {
@@ -16070,6 +16355,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 71.5,
+        "url": "https://www.activefeet.com.au/products/asics-gel-550tr-ps-kids"
       }
     ]
   },
@@ -16912,7 +17202,7 @@
     "gender": "Women's",
     "category": "Tempo / Speed",
     "variant": "Road",
-    "best_price": 199.0,
+    "best_price": 160.0,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/1171938-fyz_fyz_01-Photoroom.jpg?v=1778550478",
     "stores": [
       {
@@ -16999,6 +17289,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 192.0,
+        "url": "https://www.activefeet.com.au/products/hoka-mach-x-3-womens-running-shoes"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 250.0,
+        "url": "https://therunningcentre.com.au/products/hoka-mach-7-wide-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 160.0,
+        "url": "https://therunnersshop.com.au/products/kids-hoka-mach-7-big-kids"
       }
     ]
   },
@@ -17640,6 +17945,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 109.99,
+        "url": "https://intersport.com.au/products/mizuno-stealth-star-3-juniors-netball-shoes-2"
       }
     ]
   },
@@ -17652,7 +17962,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Wide",
-    "best_price": 140.0,
+    "best_price": 139.99,
     "image": "https://cdn.shopify.com/s/files/1/2716/1006/files/mizuno-wave-phantom-3-womens-d-black-ebony-blue-topaz-01_32d318d0-3a3f-4e8c-8a21-9d8d9f63bc69.jpg?v=1733979238",
     "stores": [
       {
@@ -17703,6 +18013,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 139.99,
+        "url": "https://intersport.com.au/products/wave-phantom-3-womens-netball-shoes-width-b-6"
       }
     ]
   },
@@ -18550,6 +18865,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 250.0,
+        "url": "https://therunningcentre.com.au/products/adidas-adizero-evo-sl-exo-womens"
       }
     ]
   },
@@ -20125,7 +20445,7 @@
     "gender": "Unisex",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 207.2,
+    "best_price": 169.0,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/usdelsr3_nb_02_i_1c1b4765-8e63-4f53-95dd-47f03e5f351e.jpg?v=1760680730",
     "stores": [
       {
@@ -20149,6 +20469,26 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 190.0,
+        "url": "https://solemotive.com/products/new-balance-fuelcell-supercomp-elite-v5"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 169.0,
+        "url": "https://therunningshop.com.au/products/new-balance-fuelcell-supercomp-trainer-v3-womens-3"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 360.0,
+        "url": "https://therunningcentre.com.au/products/new-balance-fuelcell-supercomp-elite-v4-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 299.0,
+        "url": "https://therunnersshop.com.au/products/womens-fuelcell-supercomp-elite-v5"
       }
     ]
   },
@@ -20881,7 +21221,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 183.2,
+    "best_price": 182.0,
     "image": "https://cdn.shopify.com/s/files/1/0788/1647/7466/files/ASICS25-KAYANO-ACE-2-CARRIER-GREY-METROPOLOIS-01.jpg?v=1741232303",
     "stores": [
       {
@@ -20910,6 +21250,41 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 182.0,
+        "url": "https://www.activefeet.com.au/products/asics-gel-kayano-32-mens"
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 280.0,
+        "url": "https://solemotive.com/products/asics-gel-kayano-33-mens"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 280.0,
+        "url": "https://therunningcentre.com.au/products/asics-gel-kayano-33-womens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 189.95,
+        "url": "https://footmotion.com.au/products/asics-gel-kayano-32-d-white-orange-glow-womens"
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 279.99,
+        "url": "https://intersport.com.au/products/asics-gel-kayano-33-womens-running-shoes-width-b-white"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 269.0,
+        "url": "https://therunningshop.com.au/products/asics-gel-kayano-33-mens-1"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/womens-asics-gel-kayano-33"
       }
     ]
   },
@@ -20994,6 +21369,31 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 279.99,
+        "url": "https://solemotive.com/products/brooks-ghost-max-4-womens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 269.0,
+        "url": "https://therunningshop.com.au/products/brooks-ghost-max-4-womens-1"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 279.95,
+        "url": "https://footmotion.com.au/products/brooks-ghost-max-4-d-white-rose-rutabaga-womens"
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 289.99,
+        "url": "https://intersport.com.au/products/ghost-max-2-leather-womens-running-shoes-width-b"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/mens-brooks-ghost-max-4"
       }
     ]
   },
@@ -21875,7 +22275,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Wide",
-    "best_price": 290.0,
+    "best_price": 279.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-On-Running-Cloudmonster-3-Wide-Black_Black-3MG10931043.jpg?v=1778655908",
     "stores": [
       {
@@ -21901,6 +22301,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 279.0,
+        "url": "https://therunningshop.com.au/products/on-running-cloudmonster-3-womens-6"
       }
     ]
   },
@@ -21913,7 +22318,7 @@
     "gender": "Men's",
     "category": "Trail",
     "variant": "Trail",
-    "best_price": 380.0,
+    "best_price": 379.99,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-HOKA-Rocket-X-Trail-Squid-Ink_Neon-Nebula-1176330-SNNN.jpg?v=1790061915",
     "stores": [
       {
@@ -21961,6 +22366,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 379.99,
+        "url": "https://therunningcentre.com.au/products/hoka-rocket-x-3-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 390.0,
+        "url": "https://therunnersshop.com.au/products/womens-hoka-rocket-x-trail"
       }
     ]
   },
@@ -22576,6 +22991,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 340.0,
+        "url": "https://therunningcentre.com.au/products/asics-superblast-3-mens-3"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 339.95,
+        "url": "https://footmotion.com.au/products/asics-superblast-3-d-white-black-unisex"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 340.0,
+        "url": "https://therunnersshop.com.au/products/unisex-asics-superblast-3"
       }
     ]
   },
@@ -22731,6 +23161,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 319.95,
+        "url": "https://footmotion.com.au/products/asics-sonicblast-2-d-white-stadium-orange-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 320.0,
+        "url": "https://therunnersshop.com.au/products/womens-asics-sonicblast-2"
       }
     ]
   },
@@ -23417,6 +23857,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 360.0,
+        "url": "https://therunningcentre.com.au/products/asics-megablast-mens-1"
       }
     ]
   },
@@ -23429,7 +23874,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 221.0,
+    "best_price": 140.0,
     "image": "https://cdn.shopify.com/s/files/1/2716/1006/files/asics-novablast-6-womens-lavendar-dahlia-grey-01.jpg?v=1785125961",
     "stores": [
       {
@@ -23919,6 +24364,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 259.95,
+        "url": "https://footmotion.com.au/products/asics-novablast-6-b-white-white-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 140.0,
+        "url": "https://therunnersshop.com.au/products/kids-asics-novablast-6-gs"
       }
     ]
   },
@@ -24574,7 +25029,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 189.0,
+    "best_price": 180.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Womens-Brooks-Adrenaline-GTS-25-Black_Peach_Mullied-Grape-120443_1B_051.jpg?v=1785906323",
     "stores": [
       {
@@ -24732,6 +25187,26 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 180.0,
+        "url": "https://therunningshop.com.au/products/brooks-adrenaline-gts-25-womens-3"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 269.99,
+        "url": "https://therunningcentre.com.au/products/brooks-adrenaline-gts-25-wide-mens-2"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 269.95,
+        "url": "https://footmotion.com.au/products/brooks-adrenaline-gts-25-b-black-blackened-pearl-purple-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 270.0,
+        "url": "https://therunnersshop.com.au/products/womens-brooks-adrenaline-gts-25-2e-extra-wide"
       }
     ]
   },
@@ -25106,6 +25581,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 224.0,
+        "url": "https://www.activefeet.com.au/products/new-balance-1080-v15-womens-running-shoes-1"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 269.0,
+        "url": "https://therunningshop.com.au/products/new-balance-1080-v15-mens-9"
       }
     ]
   },
@@ -25255,6 +25740,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 240.0,
+        "url": "https://solemotive.com/products/nike-pegasus-42-keely-hodgkinson-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 260.0,
+        "url": "https://therunnersshop.com.au/products/womens-nike-pegasus-plus-2"
       }
     ]
   },
@@ -25348,6 +25843,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 240.0,
+        "url": "https://therunningcentre.com.au/products/puma-deviate-pure-nitro-mens-1"
       }
     ]
   },
@@ -25706,6 +26206,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 270.0,
+        "url": "https://solemotive.com/products/nike-vomero-plus-keely-hodgkinson-womens"
       }
     ]
   },
@@ -26329,6 +26834,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 320.0,
+        "url": "https://solemotive.com/products/nike-vomero-premium-mens"
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 219.99,
+        "url": "https://intersport.com.au/products/nike-vomero-18-mens-road-running-shoes-grey"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 320.0,
+        "url": "https://therunnersshop.com.au/products/nike-vomero-premium"
       }
     ]
   },
@@ -26502,7 +27022,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 260.0,
+    "best_price": 145.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Womens-On-Running-Cloudsurfer-3-Moonstone_Flame-3WH10156260.jpg?v=1789984187",
     "stores": [
       {
@@ -26545,6 +27065,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 145.0,
+        "url": "https://therunningshop.com.au/products/on-running-cloudsurfer-max-2e-wide-mens"
       }
     ]
   },
@@ -26722,6 +27247,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 289.0,
+        "url": "https://therunningshop.com.au/products/brooks-glycerin-gts-23-womens-3"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 299.99,
+        "url": "https://therunningcentre.com.au/products/brooks-glycerin-gts-23-wide-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 300.0,
+        "url": "https://therunnersshop.com.au/products/mens-brooks-glycerin-gts-23-1"
       }
     ]
   },
@@ -26734,7 +27274,7 @@
     "gender": "Unisex",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 320.0,
+    "best_price": 315.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Unisex-ASICS-Gel-Slowcush-orange-glow-cherry-tomato-1013A187-800.jpg?v=1789707798",
     "stores": [
       {
@@ -26794,6 +27334,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 320.0,
+        "url": "https://therunningcentre.com.au/products/asics-gel-slowcush-mens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 315.0,
+        "url": "https://therunningshop.com.au/products/asics-gel-slowcush-unisex"
       }
     ]
   },
@@ -26914,6 +27464,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 259.95,
+        "url": "https://solemotive.com/products/brooks-ghost-17-mens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 259.95,
+        "url": "https://footmotion.com.au/products/brooks-ghost-18-d-chateau-black-morel-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 270.0,
+        "url": "https://therunnersshop.com.au/products/womens-brooks-ghost-amp"
       }
     ]
   },
@@ -26926,7 +27491,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 196.0,
+    "best_price": 195.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Womens-ASICS-Gel-Nimbus-28-Piedmont-Grey_Cream1012B899-021.jpg?v=1783304541",
     "stores": [
       {
@@ -27347,6 +27912,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 199.95,
+        "url": "https://footmotion.com.au/products/asics-gel-nimbus-28-d-white-stadium-orange-mens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 195.0,
+        "url": "https://therunningshop.com.au/products/asics-gel-nimbus-28-mens-1"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/mens-asics-gel-nimbus-28-4e-extra-wide"
       }
     ]
   },
@@ -27989,6 +28569,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 380.0,
+        "url": "https://solemotive.com/products/adidas-adizero-adios-pro-5-mens"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 380.0,
+        "url": "https://therunningcentre.com.au/products/adidas-adizero-adios-pro-5-womens"
       }
     ]
   },
@@ -28445,6 +29035,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 300.0,
+        "url": "https://therunningcentre.com.au/products/mizuno-sky-prime-mens"
       }
     ]
   },
@@ -28553,6 +29148,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 350.0,
+        "url": "https://therunnersshop.com.au/products/unisex-mizuno-hyperwarp-pro"
       }
     ]
   },
@@ -29099,7 +29699,7 @@
     "gender": "Men's",
     "category": "Race / Marathon",
     "variant": "Road",
-    "best_price": 400.0,
+    "best_price": 270.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-Nike-Alphafly-4-Sea-Glass_Burgundy-Ash_Laser-Crimson-IU4686-002.jpg?v=1790055133",
     "stores": [
       {
@@ -29128,6 +29728,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 282.5,
+        "url": "https://www.activefeet.com.au/products/nike-alphafly-3-mens-racing-shoes-4"
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 270.0,
+        "url": "https://solemotive.com/products/nike-air-zoom-alphafly-next-3-glam-mens-copy"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 299.0,
+        "url": "https://therunnersshop.com.au/products/mens-nike-air-zoom-alphafly-next-3-glam"
       }
     ]
   },
@@ -29831,6 +30446,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 300.0,
+        "url": "https://solemotive.com/products/new-balance-supercomp-rebel-womens"
       }
     ]
   },
@@ -30099,6 +30719,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 340.0,
+        "url": "https://solemotive.com/products/adidas-hyperboost-edge-hk-mens"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 360.0,
+        "url": "https://therunningcentre.com.au/products/adidas-hyperboost-edge-hk-mens"
       }
     ]
   },
@@ -30437,6 +31067,26 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 289.0,
+        "url": "https://therunningshop.com.au/products/brooks-glycerin-23-gts-mens"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 289.99,
+        "url": "https://therunningcentre.com.au/products/brooks-glycerin-23-mens-2"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 289.95,
+        "url": "https://footmotion.com.au/products/brooks-glycerin-23-d-turbulence-ebony-clear-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 290.0,
+        "url": "https://therunnersshop.com.au/products/womens-brooks-glycerin-23"
       }
     ]
   },
@@ -30449,7 +31099,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 260.0,
+    "best_price": 215.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Womens-Salomon-Aero-Glide-4-GRVL-Tapioca_Desert-Tan_Burro-L45407300.jpg?v=1787026704",
     "stores": [
       {
@@ -30491,6 +31141,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 215.0,
+        "url": "https://therunningshop.com.au/products/salomon-aero-glide-4-gravel-mens"
       }
     ]
   },
@@ -30743,6 +31398,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 208.0,
+        "url": "https://www.activefeet.com.au/products/hoka-challenger-8-womens-trail-running-shoes-1"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 260.0,
+        "url": "https://therunningcentre.com.au/products/hoka-challenger-8-mens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 259.95,
+        "url": "https://footmotion.com.au/products/hoka-challenger-atr-8-d-black-outer-orbit-mens"
       }
     ]
   },
@@ -31037,6 +31707,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 390.0,
+        "url": "https://therunnersshop.com.au/products/unisex-hoka-cielo-x-1-30"
       }
     ]
   },
@@ -31101,6 +31776,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 300.0,
+        "url": "https://therunnersshop.com.au/products/womens-altra-olympus-7"
       }
     ]
   },
@@ -31906,6 +32586,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 289.95,
+        "url": "https://footmotion.com.au/products/hoka-speedgoat-7-2e-outer-orbit-virtual-blue-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 330.0,
+        "url": "https://therunnersshop.com.au/products/mens-hoka-speedgoat-gtx-7-wide-2e"
       }
     ]
   },
@@ -31954,7 +32644,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 323.0,
+    "best_price": 299.95,
     "image": "https://cdn.shopify.com/s/files/1/2716/1006/files/new-balance-supercomp-elite-v6-mens-fresh-air-alkaline-green-01_bac03616-ed3a-4dde-8b16-911dc73dba35.jpg?v=1785740491",
     "stores": [
       {
@@ -32072,6 +32762,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 380.0,
+        "url": "https://solemotive.com/products/new-balance-supercomp-elite-v6-wide-mens"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 380.0,
+        "url": "https://therunningcentre.com.au/products/new-balance-supercomp-elite-6-mens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 299.95,
+        "url": "https://footmotion.com.au/products/new-balance-supercomp-elite-v6-d-pistachio-butter-sea-salt-mens"
       }
     ]
   },
@@ -33922,6 +34627,26 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 168.0,
+        "url": "https://www.activefeet.com.au/products/new-balance-ellipse-womens-running-shoes-1"
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 168.0,
+        "url": "https://solemotive.com/products/new-balance-ellipse-v1-womens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 160.0,
+        "url": "https://therunningshop.com.au/products/new-balance-ellipse-mens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 189.95,
+        "url": "https://footmotion.com.au/products/new-balance-ellipse-2e-black-grey-matter-mens"
       }
     ]
   },
@@ -34058,7 +34783,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 216.0,
+    "best_price": 179.99,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-ASICS-Trabuco-14-Cobalt-Burst_Sandstorm-1011C166-400.jpg?v=1768887304",
     "stores": [
       {
@@ -34103,6 +34828,31 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 280.0,
+        "url": "https://solemotive.com/products/asics-trabuco-max-5-mens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 230.0,
+        "url": "https://therunningshop.com.au/products/asics-gel-trabuco-14-womens-3"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 280.0,
+        "url": "https://therunningcentre.com.au/products/asics-trabuco-max-5-womens-2"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 279.95,
+        "url": "https://footmotion.com.au/products/asics-trabuco-max-5-d-vintage-khaki-foggy-teal-mens"
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 179.99,
+        "url": "https://intersport.com.au/products/asics-trabuco-max-4-womens-trail-running-shoes-1"
       }
     ]
   },
@@ -34250,6 +35000,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 370.0,
+        "url": "https://solemotive.com/products/brooks-hyperion-elite-6-unisex"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 369.95,
+        "url": "https://therunningcentre.com.au/products/brooks-hyperion-elite-6-womens"
       }
     ]
   },
@@ -34630,7 +35390,7 @@
     "gender": "Unisex",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 340.0,
+    "best_price": 300.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Unisex-ASICS-Yogiri-Speed-Aquarium_White-1013A196-400.jpg?v=1785381390",
     "stores": [
       {
@@ -34662,6 +35422,16 @@
             "sizes": []
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 340.0,
+        "url": "https://therunningcentre.com.au/products/asics-yogiri-speed-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 300.0,
+        "url": "https://therunnersshop.com.au/products/unisex-asics-yogiri-speed"
       }
     ]
   },
@@ -35451,6 +36221,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 270.0,
+        "url": "https://solemotive.com/products/nike-zoom-fly-6-glam-womens"
       }
     ]
   },
@@ -35625,6 +36400,11 @@
             "sizes": []
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 350.0,
+        "url": "https://solemotive.com/products/nike-acg-ultrafly-trail"
       }
     ]
   },
@@ -35637,7 +36417,7 @@
     "gender": "Men's",
     "category": "Trail",
     "variant": "Road",
-    "best_price": 220.0,
+    "best_price": 162.5,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Men_sNikeZoomXZegama-Black_White.jpg?v=1714523867",
     "stores": [
       {
@@ -35865,6 +36645,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 162.5,
+        "url": "https://www.activefeet.com.au/products/nike-zoomx-zegama-trail-2-mens"
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 250.0,
+        "url": "https://solemotive.com/products/nike-acg-zegama-trail-mens"
       }
     ]
   },
@@ -37239,6 +38029,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 240.5,
+        "url": "https://solemotive.com/products/nike-zoomx-vaporfly-4-glam-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 289.0,
+        "url": "https://therunnersshop.com.au/products/mens-nike-zoomx-vaporfly-next-4-glam"
       }
     ]
   },
@@ -37894,6 +38694,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 380.0,
+        "url": "https://therunningcentre.com.au/products/puma-fast-r-nitro-elite-3-mens-1"
       }
     ]
   },
@@ -38317,6 +39122,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 156.0,
+        "url": "https://solemotive.com/products/nike-air-zoom-structure-plus-mens-copy"
       }
     ]
   },
@@ -38964,7 +39774,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 290.0,
+    "best_price": 289.95,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-Altra-FWD-Via-2-Black_Orange-Pop-Coral-AL0A85SR-85O.jpg?v=1786606729",
     "stores": [
       {
@@ -39027,6 +39837,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 289.95,
+        "url": "https://footmotion.com.au/products/altra-fwd-via-2-black-orange-pop-firey-coral-mens"
       }
     ]
   },
@@ -39235,7 +40050,7 @@
     "gender": "Men's",
     "category": "Trail",
     "variant": "Road",
-    "best_price": 290.0,
+    "best_price": 246.45,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-Brooks-Cascadia-20-Grey_Black_Nightlife-110489_1D_099.jpg?v=1787115630",
     "stores": [
       {
@@ -39276,6 +40091,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 246.45,
+        "url": "https://www.activefeet.com.au/products/brooks-cascadia-20-womens-trail-running-shoes"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 279.0,
+        "url": "https://therunningshop.com.au/products/brooks-cascadia-20-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 290.0,
+        "url": "https://therunnersshop.com.au/products/womens-brooks-cascadia-20-d-wide"
       }
     ]
   },
@@ -40845,6 +41675,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 319.95,
+        "url": "https://solemotive.com/products/brooks-hyperion-max-4-womens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 299.0,
+        "url": "https://therunningshop.com.au/products/brooks-hyperion-max-4-mens"
       }
     ]
   },
@@ -44135,7 +44975,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 280.0,
+    "best_price": 259.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Womens-Altra-Experience-Wild-3_-Grey-Pearl-AL0A85UZ-90E.jpg?v=1785468517",
     "stores": [
       {
@@ -44182,6 +45022,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 259.0,
+        "url": "https://therunningshop.com.au/products/altra-experience-wild-3-womens"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 279.95,
+        "url": "https://therunningcentre.com.au/products/altra-experience-wild-3-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 269.0,
+        "url": "https://therunnersshop.com.au/products/womens-experience-wild-3"
       }
     ]
   },
@@ -44344,6 +45199,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 280.0,
+        "url": "https://therunningcentre.com.au/products/puma-magmax-nitro-2-mens-1"
       }
     ]
   },
@@ -44635,6 +45495,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 340.0,
+        "url": "https://therunningcentre.com.au/products/puma-deviate-nitro-elite-4-womens-3"
       }
     ]
   },
@@ -44834,7 +45699,7 @@
     "gender": "Unisex",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 196.0,
+    "best_price": 140.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Unisex-ASICS-Fujispeed-4-LimeGreen_Cream-1013A179-300.jpg?v=1753771553",
     "stores": [
       {
@@ -44904,6 +45769,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 140.0,
+        "url": "https://therunningshop.com.au/products/asics-fujispeed-4-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/unisex-asics-fujispeed-4"
       }
     ]
   },
@@ -45216,7 +46091,7 @@
     "gender": "Women's",
     "category": "Tempo / Speed",
     "variant": "Road",
-    "best_price": 250.0,
+    "best_price": 239.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Womens-Altra-Escalante-5-White_White_White-AL0A85TM-96V.jpg?v=1785297582",
     "stores": [
       {
@@ -45269,6 +46144,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 239.0,
+        "url": "https://therunningshop.com.au/products/altra-escalante-5-mens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 249.95,
+        "url": "https://footmotion.com.au/products/altra-escalante-5-black-black-black-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 250.0,
+        "url": "https://therunnersshop.com.au/products/womens-altra-escalante-5"
       }
     ]
   },
@@ -45438,6 +46328,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 260.0,
+        "url": "https://therunnersshop.com.au/products/womens-asics-blazeblast"
       }
     ]
   },
@@ -47756,7 +48651,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 208.0,
+    "best_price": 169.99,
     "image": "https://cdn.shopify.com/s/files/1/2716/1006/files/mizuno-wave-rider-30-mens-white-blue-jewel-orange-02.jpg?v=1784591300",
     "stores": [
       {
@@ -47867,6 +48762,36 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 260.0,
+        "url": "https://solemotive.com/products/mizuno-wave-rider-30-womens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 250.0,
+        "url": "https://therunningshop.com.au/products/mizuno-wave-rider-30-tsukiakari-mens"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 260.0,
+        "url": "https://therunningcentre.com.au/products/mizuno-wave-rider-30-womens-1"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 279.95,
+        "url": "https://footmotion.com.au/products/mizuno-wave-rider-gtx-4-d-black-black-sand-womens"
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 169.99,
+        "url": "https://intersport.com.au/products/wave-rider-28-mens-running-shoes-width-d-1"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/womens-mizuno-wave-rider-gtx-4-d-wide"
       }
     ]
   },
@@ -48000,7 +48925,7 @@
     "gender": "Unisex",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 320.0,
+    "best_price": 175.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Unisex-Mizuno-Neo-Vista-3-Black_Black_White-J1GU2610-81.jpg?v=1784171015",
     "stores": [
       {
@@ -48064,6 +48989,36 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 176.0,
+        "url": "https://www.activefeet.com.au/products/mizuno-neo-lumina-womens-trail-running-shoes-1"
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 320.0,
+        "url": "https://solemotive.com/products/mizuno-neo-vista-3-womens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 175.0,
+        "url": "https://therunningshop.com.au/products/mizuno-neo-vista-2-womens-1"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 320.0,
+        "url": "https://therunningcentre.com.au/products/mizuno-neo-vista-3-mens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 229.95,
+        "url": "https://footmotion.com.au/products/mizuno-neo-vista-2-d-white-white-iris-bloom-mens"
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 269.99,
+        "url": "https://intersport.com.au/products/mizuno-morelia-neo-iv-beta-elite-firm-ground-mens-football-boots"
       }
     ]
   },
@@ -48205,7 +49160,7 @@
     "gender": "Men's",
     "category": "Trail",
     "variant": "Road",
-    "best_price": 270.0,
+    "best_price": 259.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-Altra-Lone-Peak-9-Plus-Black_Lime-AL0A85RG-031.jpg?v=1783572977",
     "stores": [
       {
@@ -48280,6 +49235,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 259.0,
+        "url": "https://therunningshop.com.au/products/altra-lone-peak-9-womens-6"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 270.0,
+        "url": "https://therunnersshop.com.au/products/womens-altra-lone-peak-9"
       }
     ]
   },
@@ -50166,6 +51131,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 219.0,
+        "url": "https://therunnersshop.com.au/products/unisex-asics-magic-speed-5"
       }
     ]
   },
@@ -51812,6 +52782,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 399.95,
+        "url": "https://footmotion.com.au/products/asics-metaspeed-sky-tokyo-d-green-gecko-black-unisex"
       }
     ]
   },
@@ -51909,7 +52884,7 @@
     "gender": "Unisex",
     "category": "Race / Marathon",
     "variant": "Road",
-    "best_price": 315.0,
+    "best_price": 199.0,
     "image": "https://cdn.shopify.com/s/files/1/2716/1006/files/saucony-endorphin-elite-3-unisex-white-multi-01.jpg?v=1783050684",
     "stores": [
       {
@@ -51996,6 +52971,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 380.0,
+        "url": "https://solemotive.com/products/saucony-endorphin-elite-3-unisex"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 199.0,
+        "url": "https://therunningshop.com.au/products/saucony-endorphin-elite-2-unisex-4"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 420.0,
+        "url": "https://therunningcentre.com.au/products/saucony-endorphin-elite-3-womens-1"
       }
     ]
   },
@@ -56812,7 +57802,7 @@
     "gender": "Unisex",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 315.0,
+    "best_price": 280.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Unisex-adidas-Adizero-Prime-X3-Strung-Cloud-White_Dash-Grey_Grey-Three-KH8884.jpg?v=1779719453",
     "stores": [
       {
@@ -56960,6 +57950,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 280.0,
+        "url": "https://therunningcentre.com.au/products/adidas-adizero-prime-sp-4-wc-womens"
       }
     ]
   },
@@ -62093,6 +63088,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 259.0,
+        "url": "https://therunningshop.com.au/products/altra-experience-flow-3-mens-3"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 270.0,
+        "url": "https://therunnersshop.com.au/products/womens-altra-experience-flow-3"
       }
     ]
   },
@@ -62144,7 +63149,7 @@
     "gender": "Unisex",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 280.0,
+    "best_price": 250.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Unisex-ASICS-Metaspeed-SP-2-White_Cobalt-Burst-1093A234-101.jpg?v=1769327687",
     "stores": [
       {
@@ -62170,6 +63175,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 250.0,
+        "url": "https://therunningshop.com.au/products/asics-metaspeed-sp-1"
       }
     ]
   },
@@ -64346,7 +65356,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Wide",
-    "best_price": 240.0,
+    "best_price": 140.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-On-Running-Cloud-6-Wide-Black_Black-3MG10431043.jpg?v=1770093432",
     "stores": [
       {
@@ -64374,6 +65384,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 140.0,
+        "url": "https://therunningshop.com.au/products/on-running-cloud-flow-5-mens"
       }
     ]
   },
@@ -64524,7 +65539,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 189.0,
+    "best_price": 180.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-Altra-Torin-8-Dark_Grey_Blue-AL0A85QE-241.jpg?v=1769657814",
     "stores": [
       {
@@ -64587,6 +65602,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 180.0,
+        "url": "https://therunningshop.com.au/products/altra-torin-8-womens"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 259.95,
+        "url": "https://footmotion.com.au/products/altra-torin-9-black-black-pink-glow-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 269.0,
+        "url": "https://therunnersshop.com.au/products/womens-altra-torin-9-d-wide"
       }
     ]
   },
@@ -64880,7 +65910,7 @@
     "gender": "Men's",
     "category": "Trail",
     "variant": "Road",
-    "best_price": 234.0,
+    "best_price": 216.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/Mens-Saucony-Xodus-Ultra-4-Laurel_Black-S21032-140.jpg?v=1769560608",
     "stores": [
       {
@@ -64904,6 +65934,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 216.0,
+        "url": "https://www.activefeet.com.au/products/saucony-xodus-ultra-4-womens-trail-running-shoes-1"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 269.95,
+        "url": "https://footmotion.com.au/products/saucony-xodus-ultra-4-d-black-rust-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 270.0,
+        "url": "https://therunnersshop.com.au/products/womens-saucony-xodus-ultra-4"
       }
     ]
   },
@@ -64940,6 +65985,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/mens-saucony-peregrine-16-gtx"
       }
     ]
   },
@@ -65024,7 +66074,7 @@
     "gender": "Men's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 195.0,
+    "best_price": 169.0,
     "image": "https://cdn.shopify.com/s/files/1/2716/1006/files/asics-glideride-max-2-mens-black-solid-air-01.jpg?v=1780963749",
     "stores": [
       {
@@ -65071,6 +66121,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 169.0,
+        "url": "https://therunningshop.com.au/products/asics-glideride-max-2-d-wdie-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 260.0,
+        "url": "https://therunnersshop.com.au/products/womens-asics-glideride-max-2"
       }
     ]
   },
@@ -66362,6 +67422,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 200.0,
+        "url": "https://therunnersshop.com.au/products/womens-saucony-kinvara-16"
       }
     ]
   },
@@ -71496,7 +72561,7 @@
     "gender": "Men's",
     "category": "Tempo / Speed",
     "variant": "Road",
-    "best_price": 250.0,
+    "best_price": 130.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/MensOnRunningCloudX4-Ivory_Black.jpg?v=1759455978",
     "stores": [
       {
@@ -71539,6 +72604,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 130.0,
+        "url": "https://therunningshop.com.au/products/on-running-cloud-x4-womens-1"
       }
     ]
   },
@@ -76108,7 +77178,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 202.5,
+    "best_price": 160.0,
     "image": "https://cdn.shopify.com/s/files/1/2716/1006/files/saucony-hurricane-25-womens-ivory-tender-01.jpg?v=1775002888",
     "stores": [
       {
@@ -76172,6 +77242,26 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Sole Motive",
+        "lowest_price": 279.99,
+        "url": "https://solemotive.com/products/saucony-hurricane-26-womens"
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 160.0,
+        "url": "https://therunningshop.com.au/products/saucony-hurricane-25-mens-5"
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 280.0,
+        "url": "https://therunningcentre.com.au/products/saucony-hurricane-26-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/mens-saucony-hurricane-26"
       }
     ]
   },
@@ -76564,6 +77654,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 299.99,
+        "url": "https://therunningcentre.com.au/products/hoka-mafate-5-mens-1"
       }
     ]
   },
@@ -92114,7 +93209,7 @@
     "gender": "Men's",
     "category": "Trail",
     "variant": "Road",
-    "best_price": 260.0,
+    "best_price": 180.0,
     "image": "https://cdn.shopify.com/s/files/1/0288/5962/files/MensBrooksCaldera6-Nightlife_Titan_OysterMushroom.jpg?v=1730266450",
     "stores": [
       {
@@ -92198,6 +93293,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 180.0,
+        "url": "https://therunningshop.com.au/products/brooks-caldera-8-womens-1"
       }
     ]
   },
@@ -107448,6 +108548,16 @@
             "sizes": []
           }
         ]
+      },
+      {
+        "retailer": "Up There Athletics",
+        "lowest_price": 140.0,
+        "url": "https://upthereathletics.com/products/nike-mens-aeroswift-dri-fit-adv-printed-short-sleeve-running-top-black-white"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 110.0,
+        "url": "https://therunnersshop.com.au/products/nike-aeroswift-womens-dri-fit-adv-tight-running-shorts"
       }
     ]
   },
@@ -135497,6 +136607,16 @@
             "sizes": []
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 240.0,
+        "url": "https://therunningcentre.com.au/products/saucony-guide-19-womens-2"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 240.0,
+        "url": "https://therunnersshop.com.au/products/saucony-guide-metro-womens-2e-wide"
       }
     ]
   },
@@ -136844,7 +137964,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 220.0,
+    "best_price": 169.0,
     "image": "https://cdn.shopify.com/s/files/1/0262/5971/8230/files/wrcx76e_nb_02_i.webp?v=1785030521",
     "stores": [
       {
@@ -136867,6 +137987,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 169.0,
+        "url": "https://therunningshop.com.au/products/new-balance-fuel-cell-supercomp-trainer-v4-mens-2"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 330.0,
+        "url": "https://therunnersshop.com.au/products/new-balance-supercomp-trainer-v4-wide-2e"
       }
     ]
   },
@@ -136879,7 +138009,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 280.0,
+    "best_price": 69.95,
     "image": "https://cdn.shopify.com/s/files/1/0262/5971/8230/files/IMG_8785_db548528-caaf-4d0a-a59b-43a24cdfbd63.jpg?v=1784982565",
     "stores": [
       {
@@ -136903,6 +138033,31 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 245.0,
+        "url": "https://therunningshop.com.au/products/new-balance-md-x-v3-unisex-spikes"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 69.95,
+        "url": "https://footmotion.com.au/products/new-balance-flite-s-sprint-spike-alkaline-green-unisex"
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 128.0,
+        "url": "https://www.activefeet.com.au/products/new-balance-480p-unisex-casual-shoes"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 250.0,
+        "url": "https://therunnersshop.com.au/products/mens-new-balance-860-15-4e-extra-wide"
+      },
+      {
+        "retailer": "Intersport Australia",
+        "lowest_price": 169.99,
+        "url": "https://intersport.com.au/products/880-v15-womens-running-shoes-width-d-2"
       }
     ]
   },
@@ -138856,7 +140011,7 @@
     "gender": "Women's",
     "category": "Trail",
     "variant": "Trail",
-    "best_price": 120.0,
+    "best_price": 90.0,
     "image": "https://cdn.shopify.com/s/files/1/0435/2039/3377/files/NIKE-Trail-Women-s-Running-Vest-APPAREL-Womens-Jac-0.png?v=1755191457",
     "stores": [
       {
@@ -138872,6 +140027,16 @@
             "sizes": []
           }
         ]
+      },
+      {
+        "retailer": "Pace Athletic",
+        "lowest_price": 90.0,
+        "url": "https://paceathletic.com/products/mens-nike-acg-6-inch-brief-lined-trail-running-shorts-im5134-355"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 110.0,
+        "url": "https://therunnersshop.com.au/products/mens-nike-acg-mens-dri-fit-mid-layer-14-zip-trail-running-top"
       }
     ]
   },
@@ -138935,6 +140100,11 @@
             "sizes": []
           }
         ]
+      },
+      {
+        "retailer": "Pace Athletic",
+        "lowest_price": 110.0,
+        "url": "https://paceathletic.com/products/mens-nike-stride-dri-fit-1-2-length-running-tights-if2040-010"
       }
     ]
   },
@@ -139966,7 +141136,7 @@
     "gender": "Women's",
     "category": "Daily Trainer",
     "variant": "Road",
-    "best_price": 279.95,
+    "best_price": 210.0,
     "image": "https://cdn.shopify.com/s/files/1/0068/0493/0630/files/image20251216-1-1wlu6xh_e66bdf3d-6409-4af4-bd78-1a1fd2d81ec9.jpg?v=1771045006",
     "stores": [
       {
@@ -139998,6 +141168,21 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "Active Feet",
+        "lowest_price": 210.0,
+        "url": "https://www.activefeet.com.au/products/mizuno-wave-horizon-9-men-running-shoes"
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 279.95,
+        "url": "https://footmotion.com.au/products/mizuno-wave-horizon-9-b-phantom-dystopic-ray-black-womens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/womens-mizuno-wave-horizon-9-d-wide"
       }
     ]
   },
@@ -140351,6 +141536,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 249.95,
+        "url": "https://footmotion.com.au/products/saucony-echelon-11-4e-black-gunmetal-mens"
       }
     ]
   },
@@ -141233,6 +142423,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Centre",
+        "lowest_price": 320.0,
+        "url": "https://therunningcentre.com.au/products/saucony-paramount-max-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 320.0,
+        "url": "https://therunnersshop.com.au/products/womens-saucony-paramount-max"
       }
     ]
   },
@@ -142947,6 +144147,16 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 299.95,
+        "url": "https://footmotion.com.au/products/brooks-beast-gts-26-2e-gray-gray-blackened-pearl-mens"
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/mens-brooks-beast-gts-26-4e-wide"
       }
     ]
   },
@@ -144046,6 +145256,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 269.0,
+        "url": "https://therunningshop.com.au/products/asics-gel-kayano-33-mens-1"
       }
     ]
   },
@@ -144205,6 +145420,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Running Shop",
+        "lowest_price": 249.0,
+        "url": "https://therunningshop.com.au/products/new-balance-m860-v15-2e-wide-mens-3"
       }
     ]
   },
@@ -144372,6 +145592,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "The Runners Shop",
+        "lowest_price": 280.0,
+        "url": "https://therunnersshop.com.au/products/saucony-omni-st-23"
       }
     ]
   },
@@ -144585,6 +145810,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 299.95,
+        "url": "https://footmotion.com.au/products/brooks-ariel-gts-26-2e-black-grey-white-womens"
       }
     ]
   },
@@ -146348,6 +147578,11 @@
             ]
           }
         ]
+      },
+      {
+        "retailer": "FootMotion",
+        "lowest_price": 259.95,
+        "url": "https://footmotion.com.au/products/asics-gt-4000-4-d-independence-blue-hazy-lilac-womens"
       }
     ]
   },

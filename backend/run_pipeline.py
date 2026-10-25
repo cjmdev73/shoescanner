@@ -1,91 +1,66 @@
 import json
 import os
-import glob
-from dynamic_cataloger import DynamicShoeCataloger
+import re
+from scrapers.shopify_hub import scrape_shopify_hub
 
-def load_raw_scraped_data():
-    """
-    Collects raw scraped data from json files in backend/data/ or scrapers output.
-    Falls back to a test set if no scraped files are found.
-    """
-    items = []
-    data_files = glob.glob("data/*.json") + glob.glob("scrapers/*.json")
+def clean_string(text):
+    if not text:
+        return ""
+    text = text.lower()
+    text = re.sub(r"\b(men's|mens|women's|womens|d|2e|4e|wide|running|shoes|shoe)\b", "", text)
+    text = re.sub(r"[^a-z0-9]", "", text)
+    return text.strip()
+
+def run_pipeline():
+    print("=== STARTING AUTOMATED PIPELINE EXECUTION ===")
     
-    for filepath in data_files:
-        try:
-            with open(filepath, "r") as f:
-                content = json.load(f)
-                if isinstance(content, list):
-                    items.extend(content)
-                elif isinstance(content, dict):
-                    items.append(content)
-        except Exception as e:
-            print(f"⚠️ Could not read {filepath}: {e}")
+    feed_path = os.path.join(os.path.dirname(__file__), "../public/live_market_feed.json")
+    if os.path.exists(feed_path):
+        with open(feed_path, "r") as f:
+            catalog = json.load(f)
+    else:
+        catalog = []
 
-    # Fallback simulation items to verify parsing if no local scrapers dump exists
-    if not items:
-        print("ℹ️ No raw scraper dumps found in data/. Running pipeline with test validation items...")
-        items = [
-            {
-                "retailer": "Wildfire Sports",
-                "title": "ASICS GEL-Kayano 31 Men's Running Shoes - Black/White",
-                "price": 279.95,
-                "url": "https://www.wildfiresports.com.au/asics-gel-kayano-31-mens",
-                "image": "https://example.com/kayano31.jpg",
-                "color": "Black/White",
-                "sizes": ["US 9", "US 10", "US 11"]
-            },
-            {
-                "retailer": "Running Warehouse Australia",
-                "title": "ASICS GEL-Kayano 31 Men's - Metropolis/Electric Lime",
-                "price": 259.95,
-                "url": "https://www.runningwarehouse.com.au/asics-kayano-31",
-                "image": "https://example.com/kayano31-2.jpg",
-                "color": "Metropolis/Electric Lime",
-                "sizes": ["US 8.5", "US 9.5", "US 10.5"]
-            },
-            {
-                "retailer": "Up There Athletics",
-                "title": "On Cloudboom Strike v2 Unisex - White/Flame",
-                "price": 380.00,
-                "url": "https://upthereathletics.com/products/on-cloudboom-strike-v2",
-                "image": "https://example.com/cloudboom.jpg",
-                "color": "White/Flame",
-                "sizes": ["US 8", "US 9", "US 10"]
-            },
-            {
-                "retailer": "Wildfire Sports",
-                "title": "ASICS Mens Running Socks 3-Pack - Black",
-                "price": 24.95,
-                "url": "https://www.wildfiresports.com.au/asics-socks",
-                "sizes": ["M", "L"]
-            }
-        ]
+    print(f"Existing catalog count: {len(catalog)} models")
 
-    return items
+    hub_offers = scrape_shopify_hub()
 
-def run_ingestion_pipeline():
-    print("🚀 Initializing Sole Search Track Ingestion Engine...")
-    
-    cataloger = DynamicShoeCataloger(storage_path="../public/live_market_feed.json", taxonomy_path="shoe_taxonomy.json")
-    raw_items = load_raw_scraped_data()
+    merged_count = 0
+    for offer in hub_offers:
+        target_brand = (offer.get("brand") or "").lower()
+        clean_target_title = clean_string(offer.get("title", ""))
+        
+        if not target_brand or not clean_target_title:
+            continue
 
-    print(f"📦 Processing {len(raw_items)} raw scraped listings...")
-    
-    for item in raw_items:
-        # Standardize field keys from scrapers
-        scraped_payload = {
-            "retailer": item.get("retailer", "Unknown"),
-            "title": item.get("title") or item.get("raw_title", ""),
-            "price": item.get("price", 0.0),
-            "url": item.get("url") or item.get("product_url", ""),
-            "image": item.get("image", ""),
-            "color": item.get("color", "Standard Colorway"),
-            "sizes": item.get("sizes", [])
-        }
-        cataloger.ingest_live_listing(scraped_payload)
+        for shoe in catalog:
+            shoe_brand = (shoe.get("brand") or "").lower()
+            clean_display = clean_string(shoe.get("display_name", ""))
+            clean_family = clean_string(shoe.get("model_family", ""))
 
-    cataloger.save_live_feed()
+            # Flexible fuzzy matching
+            if shoe_brand == target_brand and (clean_family in clean_target_title or clean_target_title in clean_display):
+                if "stores" not in shoe or not isinstance(shoe["stores"], list):
+                    shoe["stores"] = []
+                
+                existing_stores = [s.get("retailer") for s in shoe["stores"]]
+                if offer["retailer"] not in existing_stores:
+                    shoe["stores"].append({
+                        "retailer": offer["retailer"],
+                        "lowest_price": offer["lowest_price"],
+                        "url": offer["url"]
+                    })
+                    if offer["lowest_price"] < shoe.get("best_price", 9999):
+                        shoe["best_price"] = offer["lowest_price"]
+                    merged_count += 1
+                break
+
+    print(f"Successfully merged {merged_count} store offers into catalog models!")
+
+    with open(feed_path, "w") as f:
+        json.dump(catalog, f, indent=2)
+
+    print("=== PIPELINE EXECUTION COMPLETE: live_market_feed.json UPDATED ===")
 
 if __name__ == "__main__":
-    run_ingestion_pipeline()
+    run_pipeline()
