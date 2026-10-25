@@ -7,14 +7,20 @@ SHOPIFY_STORES = [
     {"name": "The Running Shop", "domain": "therunningshop.com.au"},
     {"name": "The Running Centre", "domain": "therunningcentre.com.au"},
     {"name": "The Runners Shop", "domain": "therunnersshop.com.au"},
+    {"name": "The Running Company", "domain": "shop.therunningcompany.com.au"},
+    {"name": "Runner's Paradise", "domain": "runnersparadise.com.au"},
+    {"name": "Blue Mountain Running Co", "domain": "bluemtnsrunningco.com.au"},
+    {"name": "Coast Runners Shop", "domain": "runnersshop.com.au"},
     {"name": "Up There Athletics", "domain": "upthereathletics.com"},
     {"name": "FootMotion", "domain": "footmotion.com.au"},
     {"name": "Sportsmart", "domain": "www.sportsmart.com.au"},
-    {"name": "Intersport Australia", "domain": "intersport.com.au"}
+    {"name": "Intersport Australia", "domain": "intersport.com.au"},
+    {"name": "K2 Base Camp", "domain": "k2.com.au"},
+    {"name": "Bprimal", "domain": "bprimal.com.au"}
 ]
 
 def scrape_shopify_hub():
-    print("=== STARTING SHOPIFY MULTI-STORE SCRAPER HUB ===")
+    print("=== STARTING COMPLETE AUSTRALIAN SPECIALTY STORE HUB ===")
     all_offers = []
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
@@ -52,7 +58,7 @@ def scrape_shopify_hub():
                             all_offers.append({
                                 "retailer": name,
                                 "title": f"{vendor} {title}".strip(),
-                                "brand": vendor,
+                                "brand": vendor or name.split()[0],
                                 "lowest_price": lowest_price,
                                 "url": f"https://{domain}/products/{handle}",
                                 "image": img_url
@@ -60,11 +66,11 @@ def scrape_shopify_hub():
                             store_offers += 1
                 print(f"-> {name} ({domain}): Scraped {store_offers} shoe offers")
             else:
-                print(f"-> {name} ({domain}): Failed with status {res.status_code}")
+                print(f"-> {name} ({domain}): Bypassed or HTTP {res.status_code}")
         except Exception as e:
-            print(f"-> {name} ({domain}): Error - {e}")
+            print(f"-> {name} ({domain}): Skipped - {e}")
 
-    print(f"=== SHOPIFY HUB COMPLETE: Total {len(all_offers)} offers gathered ===")
+    print(f"=== HUBS COMPLETE: Total {len(all_offers)} offers gathered ===")
     return all_offers
 
 if __name__ == "__main__":
