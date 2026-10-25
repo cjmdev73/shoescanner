@@ -1,0 +1,103 @@
+{
+  "ASICS": {
+    "race": ["Metaspeed Sky", "Metaspeed Edge", "Metaspeed Ray", "Sonicblast", "Megablast", "Magic Speed", "S4", "Noosa Tri"],
+    "daily": ["Novablast", "Superblast", "GEL-Kayano", "GEL-Nimbus", "GEL-Cumulus", "GT-2000", "GT-1000", "GT-4000", "GEL-Pulse", "GEL-Excite", "Versablast", "Dynablast"],
+    "tempo": ["EvoRide", "Hyper Speed"],
+    "trail": ["GEL-Trabuco", "Trabuco Max", "Fuji Speed", "Fuji Lite", "GEL-Venture", "GEL-Sonoma"]
+  },
+  "Nike": {
+    "race": ["Vaporfly", "Alphafly", "Streakfly"],
+    "daily": ["Pegasus", "Pegasus Plus", "Pegasus Premium", "Vomero", "Vomero Plus", "Vomero Premium", "Invincible", "Structure", "Structure Plus", "Infinity RN", "Winflo"],
+    "tempo": ["Tempo NEXT%", "Zoom Fly"],
+    "trail": ["Pegasus Trail", "Zegama", "Wildhorse", "Terra Kiger", "Ultrafly", "Ultrafly Trail"]
+  },
+  "Adidas": {
+    "race": ["Adizero Adios Pro", "Adizero Takumi Sen", "Adizero Prime X", "Adizero Evo Sl"],
+    "daily": ["Supernova", "Supernova Rise", "Supernova Stride", "Ultraboost", "Ultraboost Light", "Adizero SL", "Solarglide", "Solarboost"],
+    "tempo": ["Adizero Boston", "Adizero Adios"],
+    "trail": ["Terrex Agravic", "Terrex Soulstride", "Terrex Speed", "Terrex Speed Ultra"]
+  },
+  "Saucony": {
+    "race": ["Endorphin Pro", "Endorphin Elite", "Endorphin Azura"],
+    "daily": ["Triumph", "Ride", "Guide", "Hurricane", "Omni", "Echelon", "Axon"],
+    "tempo": ["Endorphin Speed", "Kinvara", "Endorphin Shift", "Kinvara Pro"],
+    "trail": ["Peregrine", "Xodus Ultra", "Endorphin Rift", "Blaze TR", "Endorphin Edge"]
+  },
+  "HOKA": {
+    "race": ["Rocket X", "Cielo X1", "Cielo X LD", "Cielo Road"],
+    "daily": ["Clifton", "Clifton PRO", "Bondi", "Arahi", "Gaviota", "Skyflow", "Skyward X", "Kawana"],
+    "tempo": ["Mach", "Mach X"],
+    "trail": ["Speedgoat", "Challenger", "Mafate Speed", "Tecton X", "Stinson", "Torrent", "Mafate OG"]
+  },
+  "New Balance": {
+    "race": ["FuelCell SuperComp Elite"],
+    "daily": ["Fresh FoamX 1080", "Fresh FoamX 880", "Fresh FoamX More", "Fresh FoamX 860", "Fresh FoamX 680", "Fresh Foam Kaiha"],
+    "tempo": ["FuelCell Rebel", "FuelCell SuperComp Trainer", "FuelCell Propel"],
+    "trail": ["Fresh FoamX Hierro", "Fresh FoamX Garoe", "FuelCell Summit Unknown", "FuelCell Venym"]
+  },
+  "On Running": {
+    "race": ["Cloudboom Strike", "Cloudboom Echo"],
+    "daily": ["Cloudmonster", "Cloudsurfer", "Cloudrunner", "Cloudflyer", "Cloudeclipse", "Cloudsurfer Next"],
+    "tempo": ["Cloudflow", "Cloud X"],
+    "trail": ["Cloudultra", "Cloudvista", "Cloudsurfer Trail"]
+  },
+  "Brooks": {
+    "race": ["Hyperion Elite"],
+    "daily": ["Ghost", "Ghost Max", "Adrenaline GTS", "Glycerin", "Glycerin GTS", "Glycerin Max", "Launch", "Trace"],
+    "tempo": ["Hyperion", "Hyperion Max"],
+    "trail": ["Cascadia", "Caldera", "Divide", "Catamount"]
+  },
+  "Puma": {
+    "race": ["Fast-R", "Deviate Nitro Elite"],
+    "daily": ["Velocity Nitro", "ForeverRun Nitro", "Magnify Nitro", "Electrify Nitro"],
+    "tempo": ["Deviate Nitro", "Liberate Nitro"],
+    "trail": ["Voyage Nitro", "Fast-Trac Nitro"]
+  },
+  "Altra": {
+    "race": ["Vanish Carbon"],
+    "daily": ["Torin", "Paradigm", "Provision", "Via Olympia", "Experience Flow"],
+    "tempo": ["Escalante", "Escalante Racer", "Experience Form"],
+    "trail": ["Lone Peak", "Olympus", "Timp", "Superior", "Outroad", "Mont Blanc"]
+  },
+  "Salomon": {
+    "race": ["S/Lab Phantasm", "S/Lab Pulsar", "S/Lab Spectur"],
+    "daily": ["Aero Glide", "Aero Blaze", "DRX Bliss", "Index.03"],
+    "tempo": ["Phantasm", "Spectur"],
+    "trail": ["Speedcross", "Ultra Glide", "Sense Ride", "Thundercross", "Genesis", "Pulsar Trail"]
+  },
+  "Mizuno": {
+    "race": ["Wave Rebellion Pro"],
+    "daily": ["Wave Rider", "Wave Inspire", "Wave Sky", "Wave Horizon", "Wave Neo Ultra"],
+    "tempo": ["Wave Rebellion Flash"],
+    "trail": ["Wave Daichi", "Wave Mujin"]
+  },
+  "Norda": {
+    "trail": ["Norda 001", "Norda 002", "Norda 003"]
+  },
+  "NNormal": {
+    "race": ["Kjerag"],
+    "trail": ["Tomir"]
+  },
+  "Satisfy": {
+    "race": ["Satisfy x Crocs", "Satisfy x Norda 001"],
+    "trail": ["Satisfy Mafate Speed"]
+  },
+  "Tracksmith": {
+    "daily": ["Eliot Runner"]
+  },
+  "Kiprun": {
+    "race": ["Kiprun KD900X", "Kiprun KD900X LD"],
+    "daily": ["Kiprun KS900", "Kiprun Long"],
+    "trail": ["Kiprun MT2"]
+  },
+  "Topo Athletic": {
+    "daily": ["Phantom", "Atmosphere", "Ultrafly", "Specter"],
+    "tempo": ["Fli-Lyte", "Cyclone"],
+    "trail": ["Ultraventure", "MT-4", "Terraventure", "Pursuit", "MT-5"]
+  },
+  "Craft": {
+    "race": ["CTM Ultra Carbon"],
+    "daily": ["PRO Endur Distance", "Nordlite Speed"],
+    "trail": ["Pure Trail", "Nordlite Ultra"]
+  }
+}
