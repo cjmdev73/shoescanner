@@ -1,83 +1,55 @@
-import { useEffect, useMemo, useState, useCallback, useRef } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   Search,
   Filter,
   SlidersHorizontal,
   X,
-  Clock,
   ChevronRight,
-  ChevronDown,
   Tag,
 } from "lucide-react";
-import { base44 } from "@/api/base44Client";
 import ShoeImage from "@/components/ShoeImage";
 import FeaturedDeals from "@/components/FeaturedDeals";
 
-function timeAgo(iso) {
-  if (!iso) return "—";
-  const diff = Date.now() - new Date(iso).getTime();
-  const mins = Math.round(diff / 60000);
-  if (mins < 1) return "just now";
-  if (mins < 60) return `${mins} min ago`;
-  const hrs = Math.round(mins / 60);
-  if (hrs < 24) return `${hrs} hr ago`;
-  return `${Math.round(hrs / 24)} days ago`;
-}
-
-const CATEGORIES = ["All", "Daily Trainer", "Race", "Stability", "Trail", "Walking", "Spikes"];
+const CATEGORIES = ["All", "Daily Trainer", "Race", "Tempo / Speed", "Trail", "Stability", "Walking", "Spikes"];
 const HERO_IMG =
   "https://media.base44.com/images/public/6ad7d21e105a93383786a495/c2b073603_generated_c0e52c82.jpg";
 
 function ShoeRow({ shoe, index }) {
+  const brand = shoe.brand || "";
+  const title = shoe.display_name || shoe.model_family || shoe.id || "Running Shoe";
+  const imageUrl = shoe.image;
+  const price = shoe.best_price;
+  
+  const stores = Array.isArray(shoe.stores) ? shoe.stores : [];
+  const storeCount = stores.length;
+  const shoeId = shoe.id || encodeURIComponent(title);
+
   return (
     <Link
-      to={`/shoe/${shoe.id}`}
+      to={`/shoe/${shoeId}`}
       className="pl-row"
       style={{ animationDelay: `${Math.min(index * 0.08, 0.4)}s` }}
     >
       <div className="pl-well">
         <ShoeImage
-          src={shoe.image_url}
-          verified={shoe.image_verified}
-          license={shoe.image_license}
-          attributedTo={shoe.image_attributed_to}
-          alt={`${shoe.brandName} ${shoe.name}`}
+          src={imageUrl}
+          alt={title}
         />
-        {shoe.best_discount_pct != null && (
-          <span className="pl-bd" style={{ background: "#172b4d" }}>
-            {shoe.best_discount_pct}% off
-          </span>
-        )}
       </div>
       <div>
         <div className="pl-rt">
-          <span>{shoe.brandName}</span>
-          <span>{shoe.category}</span>
+          <span>{brand}</span>
+          <span>{shoe.category || "Running"}</span>
         </div>
-        <h3>
-          {shoe.name} {shoe.generation && <span className="pl-gn">Gen {shoe.generation}</span>}
-        </h3>
+        <h3>{title}</h3>
         <div className="pl-rb">
           <div>
             <small>Best price</small>
-            <b>${shoe.lowestPrice != null ? shoe.lowestPrice.toFixed(0) : "—"}</b>
+            <b>${price != null ? Number(price).toFixed(0) : "—"}</b>
           </div>
           <div className="pl-rr">
-            {shoe.onSale && (
-              <>
-                <span className="pl-os" style={{ margin: "0 0 3px" }}>
-                  <ChevronDown className="w-[11px] h-[11px]" strokeWidth={2.6} />
-                  On sale
-                </span>
-                <br />
-              </>
-            )}
-            {shoe.retailerCount} offer{shoe.retailerCount === 1 ? "" : "s"}
-            <br />
-            <span>
-              <Clock className="w-3 h-3" strokeWidth={2} /> {timeAgo(shoe.lastUpdated)}
-            </span>
+            {storeCount} offer{storeCount === 1 ? "" : "s"}
           </div>
         </div>
       </div>
@@ -92,65 +64,60 @@ export default function Home() {
   const [showFilters, setShowFilters] = useState(false);
   const [view, setView] = useState("featured");
 
-  const [shoes, setShoes] = useState([]);
-  const [brands, setBrands] = useState([]);
+  const [rawFeed, setRawFeed] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [hasMore, setHasMore] = useState(false);
-  const [nextCursor, setNextCursor] = useState(null);
-  const [loadingMore, setLoadingMore] = useState(false);
-  const reqId = useRef(0);
 
-  // Load brand list once (for the brand filter).
   useEffect(() => {
-    base44.entities.Brand.filter({}, { limit: 100 }).then((p) => setBrands(p.items)).catch(() => {});
+    fetch("/live_market_feed.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setRawFeed(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error("Failed to load local live market feed:", err);
+        setRawFeed([]);
+        setLoading(false);
+      });
   }, []);
 
-  const brandId = useMemo(() => {
-    if (brand === "All") return undefined;
-    const b = brands.find((x) => x.name === brand);
-    return b ? b.id : undefined;
-  }, [brand, brands]);
+  const brandFilters = useMemo(() => {
+    const brandSet = new Set(
+      rawFeed.map((item) => item.brand).filter(Boolean)
+    );
+    return ["All", ...Array.from(brandSet).sort()];
+  }, [rawFeed]);
 
-  const runSearch = useCallback(
-    async (cursor) => {
-      const id = ++reqId.current;
-      if (!cursor) setLoading(true);
-      else setLoadingMore(true);
-      try {
-        const res = await base44.functions.invoke("searchShoes", {
-          q: query.trim() || undefined,
-          brand_id: brandId,
-          category: category !== "All" ? category : undefined,
-          limit: 60,
-          cursor: cursor || undefined,
-        });
-        if (id !== reqId.current) return; // stale response
-        const items = res.data?.items || [];
-        setShoes((prev) => (cursor ? [...prev, ...items] : items));
-        setHasMore(!!res.data?.has_more);
-        setNextCursor(res.data?.next_cursor || null);
-      } catch (e) {
-        console.error(e);
-        if (!cursor) setShoes([]);
-      } finally {
-        if (id === reqId.current) {
-          setLoading(false);
-          setLoadingMore(false);
-        }
-      }
-    },
-    [query, brandId, category]
-  );
+  const filteredShoes = useMemo(() => {
+    return rawFeed.filter((shoe) => {
+      const shoeBrand = shoe.brand || "";
+      const shoeTitle = shoe.display_name || shoe.model_family || "";
+      const fullTitle = `${shoeBrand} ${shoeTitle}`.toLowerCase();
+      const q = query.trim().toLowerCase();
 
-  // Debounced search on filter changes.
-  useEffect(() => {
-    const t = setTimeout(() => {
-      runSearch();
-    }, 250);
-    return () => clearTimeout(t);
-  }, [runSearch]);
+      const matchesQuery = !q || fullTitle.includes(q);
+      const matchesBrand = brand === "All" || shoeBrand.toLowerCase() === brand.toLowerCase();
+      
+      // Category fuzzy match (e.g. "Race" matches "Race / Marathon")
+      const shoeCategory = (shoe.category || "").toLowerCase();
+      const targetCategory = category.toLowerCase();
+      const matchesCategory =
+        category === "All" ||
+        shoeCategory.includes(targetCategory) ||
+        (category === "Race" && shoeCategory.includes("race"));
 
-  const brandFilters = useMemo(() => ["All", ...brands.map((b) => b.name).sort()], [brands]);
+      return matchesQuery && matchesBrand && matchesCategory;
+    });
+  }, [rawFeed, query, brand, category]);
+
+  const handleSearchChange = (e) => {
+    const val = e.target.value;
+    setQuery(val);
+    if (val.trim() && view === "featured") {
+      setView("browse");
+    }
+  };
+
   const activeFilters = (brand !== "All" ? 1 : 0) + (category !== "All" ? 1 : 0);
 
   return (
@@ -184,7 +151,7 @@ export default function Home() {
             className="pl-sb"
             onSubmit={(e) => {
               e.preventDefault();
-              runSearch();
+              setView("browse");
             }}
           >
             <Search
@@ -194,7 +161,7 @@ export default function Home() {
             />
             <input
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={handleSearchChange}
               placeholder="Search ASICS Novablast, HOKA Clifton 9, Mizuno Wave…"
               aria-label="Search for running shoes"
             />
@@ -228,7 +195,7 @@ export default function Home() {
       </div>
 
       {/* Featured deals */}
-      {view === "featured" && <FeaturedDeals query={query} />}
+      {view === "featured" && <FeaturedDeals query={query} shoes={rawFeed} />}
 
       {/* Browse */}
       {view === "browse" && (
@@ -291,7 +258,9 @@ export default function Home() {
             {/* Status */}
             <div className="pl-st">
               <span>
-                {loading ? "Searching…" : `${shoes.length} shoe${shoes.length === 1 ? "" : "s"} found`}
+                {loading
+                  ? "Searching…"
+                  : `${filteredShoes.length} shoe${filteredShoes.length === 1 ? "" : "s"} found`}
               </span>
               <span>
                 <Tag className="w-[13px] h-[13px]" strokeWidth={2.2} />
@@ -304,32 +273,17 @@ export default function Home() {
               <div className="pl-sk">
                 <span className="pl-sp" /> Searching…
               </div>
-            ) : shoes.length === 0 ? (
-              <div className="pl-em">No shoes match your filters.</div>
+            ) : filteredShoes.length === 0 ? (
+              <div className="pl-em">No shoes match your search.</div>
             ) : (
               <div className="pl-lst">
-                {shoes.map((shoe, i) => (
-                  <ShoeRow key={shoe.id} shoe={shoe} index={i} />
+                {filteredShoes.map((shoe, i) => (
+                  <ShoeRow
+                    key={shoe.id || `${shoe.brand}-${i}`}
+                    shoe={shoe}
+                    index={i}
+                  />
                 ))}
-              </div>
-            )}
-
-            {/* Load more */}
-            {hasMore && !loading && (
-              <div className="pl-lmw">
-                <button
-                  onClick={() => runSearch(nextCursor)}
-                  disabled={loadingMore}
-                  className="pl-lm2"
-                >
-                  {loadingMore && (
-                    <span
-                      className="pl-sp"
-                      style={{ width: 14, height: 14, borderWidth: 2 }}
-                    />
-                  )}
-                  Load more
-                </button>
               </div>
             )}
           </div>
